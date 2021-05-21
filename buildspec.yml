@@ -2,10 +2,10 @@ version: 0.2
 
 env:
   secrets-manager:
-    LOGIN: infyshoporder:sonartoken
-    HOST: infyshoporder:host
-    Organization: infyshoporder:organization
-    Project: infyshoporder:projectKey
+    LOGIN: Secretproject:sonartoken
+    HOST: Secretproject:host
+    Organization: Secretproject:organization
+    Project:Secretproject:projectKey
 
 phases:
   install:
